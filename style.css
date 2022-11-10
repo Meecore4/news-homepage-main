@@ -4,15 +4,85 @@
 }
 
 body{
-     margin: 0;
-     padding: 0;
+    
+     margin: 10px 10px 10px 150px;
      font-family:"Inter";
+     font-size: larger;
+     
+}
+
+button{
+    background-color:red;
+    color:white;
+    border: 4px;
+    font-size: x-large;
+    padding:10px;
+    width: 150px;
+}
+
+button:hover{
+    background-color: black;
+
+}
+
+nav{
+    word-spacing: 20px;  
+    display:flex;
+    display:inline-flex;
+        
 }
 
 li{
     list-style: none;
-    display: inline;
+    display: inline; 
+    justify-content: right;
+    color:grey;  
+}
+
+li:hover{
+    color:red;
+}
+
+#logo{
+    display: flex; 
+    display:inline-flex;/*permet d'aligner le logo et la barre navigation*/
+    margin:20px;
+    
+}
+
+article{
+    display: flex;
+    justify-content: inline-block;
+    white-space: pre-line;
+    
 }
 
 
+h2{
+    color:orange;
+}
 
+h3:hover{
+    color:orange;
+}
+
+h4{
+    font-size:x-large;
+    color:lightsteelblue;
+}
+
+h5:hover{
+    color:red;
+}
+aside{
+    background-color: black;
+    color: aliceblue;
+    display:inline-block;
+    vertical-align: right;
+   
+}
+
+p{
+    color:grey;
+    font-size:15px;
+}
